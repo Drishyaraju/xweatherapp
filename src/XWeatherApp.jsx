@@ -42,7 +42,7 @@ const XWeatherApp = () => {
         <button onClick={handleSearch}>Search</button>
       </div>
 
-      {loading && <p className="loading-message">Loading data…</p>}
+      {loading && <p className="loading-message">Loading data...</p>}
 
       {weatherData && (
         <div className="weather-cards">
